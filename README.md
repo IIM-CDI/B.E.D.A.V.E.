@@ -9,7 +9,3 @@ B.E.D.A.V.E. (Besoin d'Écran Des Activités et Visualisation d'Équipe) est un 
 ## Fonctionnalités
 
 - Tableau de bord des activités pour les membres de l'équipe
-
-## Installation
-
-Clonez le repo
