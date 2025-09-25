@@ -1,0 +1,29 @@
+{
+  "name": "b.e.d.a.v.e.",
+  "version": "1.0.0",
+  "description": "Project B.E.D.A.V.E.",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky && husky install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --ignore-path .gitignore --write .  &&  eslint --ignore-path .gitignore --fix .",
+    "lint": "prettier --ignore-path .gitignore --check . && eslint --ignore-path .gitignore ."
+  },
+  "keywords": [],
+  "author": "IIM-CDI",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@eslint/js": "^9.36.0",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.4.0",
+    "husky": "^8.0.0",
+    "prettier": "3.6.2",
+    "typescript-eslint": "^8.44.1"
+  },
+  "dependencies": {
+    "jiti": "^2.6.0"
+  }
+}
