@@ -1,0 +1,44 @@
+.main{
+    max-width:100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+
+    .item-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        padding-top: 24px;
+        height: 100%;
+        width: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        color: var(--charlotte-font-color);
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .calendar-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .time-labels {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 24px;
+        width: 100%;
+        color: var(--charlotte-font-color);
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
