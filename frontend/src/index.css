@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  /* E girl */
+  --egirl-background: #cdb4db;
+  --egirl-card-alt: #ffc8dd;
+  --egirl-card-alt-base: #ffafcc;
+  --egirl-card-alt-font: #000000;
+  --egirl-card-cours: #bde0fe;
+  --egirl-card-cours-base: #a2d2ff;
+  --egirl-card-cours-font: #000000;
+  --egirl-font-color: #ffffff;
+
+  /* Night Owl */
+  --nightowl-background: #231942;
+  --nightowl-card-alt: #5e548e;
+  --nightowl-card-alt-base: #9f86c0;
+  --nightowl-card-alt-font: #000000;
+  --nightowl-card-cours: #d6a5d7;
+  --nightowl-card-cours-base: #e0b1cb;
+  --nightowl-card-cours-font: #ffffff;
+  --nightowl-font-color: #ffffff;
+
+  /* Irlande */
+  --irlande-background: #fbfbfb;
+  --irlande-card-alt: #cbf3f0;
+  --irlande-card-alt-base: #2ec4b6;
+  --irlande-card-alt-font: #000000;
+  --irlande-card-cours: #fbfb69;
+  --irlande-card-cours-base: #ff9f1c;
+  --irlande-card-cours-font: #000000;
+  --irlande-font-color: #000000;
+
+  /* Charlotte aux fraises */
+  --charlotte-background: #fbfbfb;
+  --charlotte-card-alt: #ffe6e8;
+  --charlotte-card-alt-base: #f0d7d1;
+  --charlotte-card-alt-font: #2e2e2e;
+  --charlotte-card-cours: #ffa7b7;
+  --charlotte-card-cours-base: #f48498;
+  --charlotte-card-cours-font: #2e2e2e;
+  --charlotte-font-color: #8abc87;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+height: 100%;
+width: 100%;
+overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+  background-color: var(--charlotte-background);
+}
+
+body, input, button, textarea{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#root{
+    height: 100%;
+    width: 100%;
+}
